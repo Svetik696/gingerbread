@@ -1,0 +1,135 @@
+/* Задаем все данные для корзины */
+.overLay {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Работаем над самой корзиной */
+.drawer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 450px;
+  right: 0;
+  height: 100%;
+  background: #F0F0F0;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: auto; /* если товаров будет много в корзине, то будет доступна прокрутка */
+
+h2 { /* текст "Корзина" */
+  margin: 0; /* делаем отступление 0 */
+  font-size: 24px; /* задали шрифт текста */
+  margin: 0 10px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+
+img {
+  cursor: pointer;
+}
+}
+p { /* текст "просьба сделать заказ" */
+  font-size: 14px bold; /* задали размер шрифта */
+  color: #919191; /* задали цвет текста */
+  padding-top: 13px; /* сделала внутреннее отступление от слово "Корзина" */
+}
+}
+
+.cartItem { /* делаем карты для корзины */
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #947f8d;
+  background-color: #ffffff; /* задаем фон заливки границы */
+  border-radius: 8px; /* закругляем углы границы */
+  height: 130px;
+  margin: 49px 10px 0 10px;
+
+.cartItem-info {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+p {
+  font-size: 9px bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+img {
+  margin: 10px;
+}
+
+button { /* работаем с самой кнопкой */
+  background-color: #ffffff; 
+  border: 1px solid #D6D3D3; /* задаем толщину груницы и цвет */
+  box-sizing: border-box; /* опрделяем размеры элемента, указание ширины и высоты сохраняются */
+  border-radius: 8px; /* задали сглаживание углов 8 */
+  width: 45px; /* задали ширину кнопки */
+  height: 40px; /* задали высоту кнопки */
+  cursor: pointer; /* указали вид курсора в виде указателя "пальца" */
+  margin-right: 10px;
+  margin-bottom: 70px;
+}
+}
+/* Работаем над оформление заказа в корзине */
+.items {
+  padding-top: 230px;
+  flex: 1;
+}
+
+.cardTotalBlock {
+
+ul {
+  justify-content: space-between;
+  display: flex;
+  }
+
+li {
+    display: flex;
+    align-items: flex-end;
+  }
+
+.stipple {
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px dashed #aeaeae;
+    position: relative;
+    top: 15px;
+    margin: 0 10px;
+} 
+span {
+  font-size: 16px;
+}
+
+b {
+  font-size: 16px;
+  color: #FF7903;
+}
+}
+
+.button-order {
+
+  button {
+  width: 325px;
+  height: 55px;
+  border-radius: 18px;
+  background: #4D9A33;
+  margin-top: 15px;
+  border: 0;
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.1s ease-in-out;
+}
+:hover {
+  background: rgb(129, 198, 129);
+}
+:active {
+  background: rgb(51, 120, 5);
+}
+}
