@@ -2,7 +2,7 @@ function Header(props) {
     return (
         <header> {/* заголовок */}
         <div className='headerLeft'> {/* где логотип, название и текст */}
-        <img width={40} height={40} src='/public/img/logo 1.png'></img>
+        <img width={40} height={40} src='/public/img/logo1.png'></img>
         <div className='headerInfo'> {/* инфрмация о div, главной информации левой части хэдера */}
           <h3>ИМБИРНЫЙ ПРЯНЯ</h3> {/* наименование интернет-магазина */}
           <p>Мастерская по созданию пряников</p> {/* текст */}
