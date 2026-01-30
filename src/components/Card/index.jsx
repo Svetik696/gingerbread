@@ -20,7 +20,7 @@ function Card({imageUrl, title, price, onPlus}) {
     return (
          <div className='card'> {/* работаем над карточками товара */}
         <div className='favourite' onClick={onFavorite}>
-        <img src='/public/img/btn_unliked.svg' alt='Избранное'></img>
+        <img src='/public/img/btn-unliked.svg' alt='Избранное'></img>
         </div>
       <img src={imageUrl}></img>
       <p>{title}</p> {/* задаем параграф */}
@@ -30,7 +30,7 @@ function Card({imageUrl, title, price, onPlus}) {
           <b>{price} руб.</b> {/* данный тег испл.для выделения текста жирным шрифтом, однако он не несет семантической нагрузки */}
         </div>
           <img className='plus' onClick={onClick} width={40} height={35} 
-          src={isAdded ? '/public/img/btn_checked.svg' : '/public/img/btn_plus.svg'}></img>
+          src={isAdded ? '/public/img/btn-checked.svg' : '/public/img/btn-plus.svg'}></img>
       
       </div>
       </div>

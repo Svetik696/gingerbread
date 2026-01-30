@@ -12,9 +12,9 @@ import axios from 'axios'
 
 
 // const Arr = [
-//   {id:1, title: 'Имбирные пряники на торжество', price: 2000, imageUrl: '/public/img/celebration.png'},
-//   {id:2, title: 'Имбирный пряник "Домовой"', price: 3000, imageUrl: '/public/img/goblin.png'},
-//   {id:3, title: 'Имбирный пряник "Снегурочка"', price: 1000, imageUrl: '/public/img/snowmaiden.png'},
+//   {id:1, title: 'Имбирные пряники на торжество', price: 2000, imageUrl: '/public/img/torzhestvo.png'},
+//   {id:2, title: 'Имбирный пряник "Домовой"', price: 3000, imageUrl: '/public/img/domovoy.png'},
+//   {id:3, title: 'Имбирный пряник "Снегурочка"', price: 1000, imageUrl: '/public/img/snegurochka.png'},
 //   {id:4, title: 'Имбирный пряник "Мишка с цветами"', price: 2000, imageUrl: '/public/img/teddyflowers.png'},
 //   {id:5, title: 'Имбирный пряник "Куколка LOL"', price: 500, imageUrl: '/public/img/doll.png'},
 //   {id:6, title: 'Имбирный пряник "1 сентября"', price: 1000, imageUrl: '/public/img/september1st.png'},
